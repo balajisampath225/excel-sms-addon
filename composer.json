@@ -1,0 +1,7 @@
+{
+  "name": "veup/excel-sms-addon",
+  "description": "Excel SMS Add-in",
+  "require": {
+    "php": ">=7.4"
+  }
+}

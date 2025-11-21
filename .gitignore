@@ -1,0 +1,5 @@
+sms_log.txt
+*.log
+.env
+.DS_Store
+Thumbs.db

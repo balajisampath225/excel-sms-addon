@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  excel-sms:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./sms_log.txt:/var/www/html/sms_log.txt
+    environment:
+      - PHP_DISPLAY_ERRORS=1

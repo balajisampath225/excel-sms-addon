@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: excel-sms-addon
+    env: php
+    buildCommand: composer install --no-dev
+    startCommand: php -S 0.0.0.0:$PORT -t .
+    envVars:
+      - key: PHP_VERSION
+        value: "8.1"
